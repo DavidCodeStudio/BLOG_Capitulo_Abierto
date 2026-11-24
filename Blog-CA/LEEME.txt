@@ -1,0 +1,26 @@
+CAPÍTULO ABIERTO BLOG — VERSIÓN GUTENBERG 2.0
+
+INSTALACIÓN
+1. WordPress 6.4+ → Apariencia → Temas → Añadir tema → Subir tema; selecciona este ZIP.
+2. Activa el tema. En Ajustes → Lectura → «Tu portada muestra», elige «Tus últimas entradas».
+3. En Apariencia → Editor → Plantillas → Portada edita la introducción, su imagen y la distribución visual.
+4. En Apariencia → Editor → Patrones → Partes de plantilla edita Cabecera y Pie de página (logo, textos, enlaces y redes).
+5. En Entradas → Añadir nueva crea tus artículos; rellena título, contenido, extracto, categoría e imagen destacada. La portada muestra seis por página mediante Query Loop y paginación.
+6. En Apariencia → Editor → Plantillas → Entrada individual modifica cómo se presenta el artículo completo.
+
+NEWSLETTER
+El formulario del footer utiliza el shortcode [capitulo_newsletter]. Envía un aviso a infods.365@gmail.com usando wp_mail y requiere correo válido y casilla de privacidad.
+Para que los mensajes LLEGUEN, debes configurar SMTP en tu instalación/hosting y comprobar la entrega con una suscripción de prueba. Este tema no puede configurar por sí solo SMTP ni garantizar entregas.
+Este formulario NO crea una base de datos de suscriptores ni envía boletines. Si necesitas campañas, bajas y doble confirmación, integra un servicio de email marketing con consentimiento verificable.
+Crea la página /privacidad/ y ajusta el enlace si tu URL legal es distinta. No publiques antes de completar la política de privacidad.
+
+LOGO E IMÁGENES
+El logo se sube con el bloque Logo del sitio (Editor → Cabecera) y se puede eliminar el título de texto si usas imagen.
+La imagen principal está dentro del patrón de la presentación y se puede sustituir por otra mediante el Editor → Plantillas → Portada.
+Los ejemplos demo-1.jpg a demo-6.jpg pueden subirse a Medios, pero el tema NO crea ni publica entradas automáticamente.
+Los enlaces de redes y /blog/ son ejemplos: cámbialos en el Editor según tus URLs reales.
+
+NOTA: Si WordPress había guardado personalizaciones antiguas del mismo tema en la base de datos, pueden tener prioridad sobre los nuevos archivos de plantilla. Revisa la plantilla y restaura su versión del tema si es necesario.
+
+
+FOOTER 2.1: logo oficial configurable en Apariencia > Editor > Partes de plantilla > Pie de página (bloque Logo del sitio). Si el sitio ya tiene una copia personalizada del footer guardada en WordPress, el editor puede mostrar esa copia anterior: revisa las revisiones o restablece solo la parte de plantilla Pie de página. Las redes tienen URL de ejemplo: actualízalas en el Editor. Revisa que /privacidad/ y /cookies/ existan. La entrega SMTP debe configurarse y probarse en tu hosting.
